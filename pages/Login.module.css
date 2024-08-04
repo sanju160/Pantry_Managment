@@ -1,0 +1,150 @@
+/* Login.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.textField {
+  margin-bottom: 15px;
+}
+
+.button {
+  margin-top: 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  border-radius: 20px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+.googleButton {
+  margin-top: 10px;
+  background-color: #db4437;
+  color: white;
+  border-radius: 20px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.googleButton:hover {
+  background-color: #c5382b;
+}
+
+.toggleButton {
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggleButton:hover {
+  background-color: #f0f0f0;
+}
+
+.alert {
+  margin-bottom: 20px;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.rememberMe label {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.loginText {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #6a11cb;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.welcomeText {
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .formContainer {
+    padding: 15px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .loginText {
+    font-size: 24px;
+  }
+
+  .welcomeText {
+    font-size: 28px;
+  }
+}

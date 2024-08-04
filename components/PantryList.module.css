@@ -1,0 +1,31 @@
+.gridContainer {
+    margin-top: 40px; /* Increase space between form and pantry list */
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .cardMedia {
+    height: 140px;
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .editButton {
+    color: #6a11cb;
+  }
+  
+  .deleteButton {
+    color: #db4437;
+  }
+  

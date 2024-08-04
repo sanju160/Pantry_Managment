@@ -1,0 +1,90 @@
+.container {
+    margin-top: 60px; /* Increase space between navbar and form */
+    margin-bottom: 40px;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .textField {
+    flex: 1;
+    min-width: 150px; /* Decrease the width of the input fields */
+    max-width: 200px; /* Set a maximum width */
+  }
+  
+  .fileInput {
+    display: none; /* Hide the default file input */
+  }
+  
+  .uploadButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Adjust the margin to align with input fields */
+  }
+  
+  .uploadButton:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+  }
+  
+  .submitButton {
+    flex-basis: 100%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 50px; /* Make the button edges fully curved */
+    height: 45px;
+    width: 150px; /* Decrease the width of the button */
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .submitButton:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+  }
+  
+  .gridContainer {
+    margin-top: 40px; /* Increase space between form and pantry list */
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .cardMedia {
+    height: 140px;
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .editButton {
+    color: #6a11cb;
+  }
+  
+  .deleteButton {
+    color: #db4437;
+  }
+  
